@@ -8,32 +8,6 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:gravity="center"
-        android:layout_alignParentTop="true"
-        android:layout_above="@id/input_group">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif"
-        android:text="Hello"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif"
-        android:text="Welcome to the app."
-        android:textColor="#FFFFFF"
-        android:textSize="16sp"/>
-    </LinearLayout>
-
-    <LinearLayout
         android:id="@+id/input_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,18 +17,21 @@
         android:layout_marginBottom="50dp"
         android:layout_alignParentBottom="true"
         android:gravity="center">
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
 
+        <EditText
+            android:id="@+id/uname"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
             android:hint="Username"
             android:inputType="textPersonName"
             android:padding="15dp" />
 
         <EditText
+            android:id="@+id/upass"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
 
+            android:layout_height="wrap_content"
             android:hint="Password"
             android:inputType="textPassword"
             android:padding="15dp" />
@@ -73,7 +50,7 @@
             android:textSize="17sp" />
 
         <TextView
-            android:id="@+id/signUp_text"
+            android:id="@+id/signup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"
