@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/raw_milk_1_e1563894986431_755x1024"
     tools:context=".Registration">
 
 
