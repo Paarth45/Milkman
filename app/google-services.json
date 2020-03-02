@@ -52,6 +52,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "280509019716-rlvtlpu11uh0hmkdi8ia86vffue9knlj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mylogreg",
+            "certificate_hash": "f30bc43b178a1c6e7f15486e66280eae37719f25"
+          }
+        },
+        {
           "client_id": "280509019716-ttm5e5e6nlfpvrhjtaqqlpf4qajds6va.apps.googleusercontent.com",
           "client_type": 3
         }

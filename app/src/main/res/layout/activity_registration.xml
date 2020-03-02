@@ -29,7 +29,7 @@
         android:layout_marginBottom="500dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="Name" />
 
     <EditText
         android:id="@+id/uemail1"
@@ -40,6 +40,7 @@
         android:layout_marginEnd="124dp"
         android:layout_marginBottom="417dp"
         android:ems="10"
+        android:hint="Email"
         android:inputType="textEmailAddress" />
 
     <EditText
@@ -51,6 +52,7 @@
         android:layout_marginEnd="127dp"
         android:layout_marginBottom="335dp"
         android:ems="10"
+        android:hint="Password"
         android:inputType="textPassword" />
 
     <EditText
@@ -62,6 +64,7 @@
         android:layout_marginEnd="123dp"
         android:layout_marginBottom="248dp"
         android:ems="10"
+        android:hint="Contact Number"
         android:inputType="phone" />
 
     <TextView
